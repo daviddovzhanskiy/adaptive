@@ -40,6 +40,17 @@
   font-size: 16px;
   text-align: center;
   color: #fff;
+  position: relative;
+}
+
+.header__recall::after {
+  content: "";
+  width: 131px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 100%;
+  right: 34px;
 }
   
 .header__logo-circle {
