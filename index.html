@@ -57,5 +57,20 @@
       </div>
     </section>
 
+    <section class="section questions-page">
+      <div class="questions container-small">
+        <h1 class="questions__title">Остались вопросы?</h1>
+        <h2 class="questions__subtitle">Оставьте номер телефона, и мы перезвоним вам</h2>
+        <form id="info-form" method="POST">
+          <fieldset>
+            <input type="text" name="name" id="name" placeholder="Ваше Имя" required>
+            <input type="tel" name="phone" id="phone" placeholder="Телефон" pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$" title="+7-(999)-999-99-99" maxlength="12" required>
+            <input type="email" name="email" id="email" placeholder="E-mail" required>
+          </fieldset>
+          <button type="submit" formaction="https://jsonplaceholder.typicode.com/posts">Позвоните мне</button>
+        </form>
+        <p class="questions__text">Я даю своё <span class="questions__text_underline">согласие</span> на обработку моих персональных данных.</p>
+      </div>
+    </section>
 </body>
 </html>
