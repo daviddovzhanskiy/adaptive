@@ -101,3 +101,53 @@
     text-align: center;
     color: #383a4c;
 }
+
+@media (max-width: 1024px) {
+    .about__title {
+        font-size: 32px;
+        margin-bottom: 23px;
+    }
+
+    .about__subtitle {
+        width: 52px;
+        height: 23px;
+        font-size: 20px;
+        margin-bottom: 33px;
+    }
+    
+    .about__subtitle::before,
+    .about__subtitle::after {
+        width: 40px;
+        top: 11.5px;
+    }
+    
+    .about__subtitle::before {
+        left: -62px;
+    }
+      
+    .about__subtitle::after {
+        right: -62px;
+    }
+
+    .about__text {
+        width: 666px;
+        height: 76px;
+        font-size: 16px;
+    }
+    
+    .about__advantages-item {
+        width: 180px;
+        height: 182px;    
+    }
+    
+    .about__advantages-item-icon {
+        width: 104px;
+        height: 104px;
+        font-size: 52px;
+        margin-bottom: 26px;
+    }
+    
+    .about__advantages-item-title {
+        font-size: 18px;
+    }
+}

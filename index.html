@@ -12,15 +12,18 @@
   <main class="main">
     <section class="section-diff welcome-page">
       <div class="header container">
+        <div class="test"></div>
         <div class="header__box">
           <div class="header__logo">
             <a class="header__logo-link" href="index.html">
-              <div class="header__logo-circle">Logo</div>
+              <div class="header__logo-circle">
+                <p class="header__logo-circle-text">Logo</p>
+              </div>
             </a>
           </div>
           <div class="header__contacts">
             <p class="header__phone">+7 (962) 556 - 1234</p>
-            <p class="header__recall">Перезвоните мне</p>
+            <a href="tel:+79625561234" class="header__recall">Перезвоните мне</a>
           </div>
         </div>
       </div>
@@ -67,10 +70,32 @@
             <input type="tel" name="phone" id="phone" placeholder="Телефон" pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$" title="+7-(999)-999-99-99" maxlength="12" required>
             <input type="email" name="email" id="email" placeholder="E-mail" required>
           </fieldset>
-          <button type="submit" formaction="https://jsonplaceholder.typicode.com/posts">Позвоните мне</button>
+          <button type="submit" formaction="https://jsonplaceholder.typicode.com/posts">позвоните мне</button>
         </form>
-        <p class="questions__text">Я даю своё <span class="questions__text_underline">согласие</span> на обработку моих персональных данных.</p>
+        <p class="questions__text">Я даю своё <a  href="#">согласие</a> на обработку моих персональных данных.</p>
       </div>
     </section>
-</body>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__box">
+        <div class="footer__left">
+          <a class="footer__left-logo" href="index.html">
+            <div class="footer__left-circle">
+              <p class="footer__left-circle-text">Logo</p>
+            </div>
+          </a>
+          <p class="footer__left-text">© 2022 XXXcompany. Все права защищены.</p>
+        </div>
+        <div class="footer__center">
+          <p class="footer__center-text">Сделано Ивановым Иваном</p>
+        </div>
+        <div class="footer__right">
+          <p class="footer__right-phone">+7 (962) 556 - 1234</p>
+          <a href="tel:+79625561234" class="footer__right-recall">Перезвоните мне</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 </html>
