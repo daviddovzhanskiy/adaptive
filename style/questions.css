@@ -159,3 +159,54 @@
         padding-bottom: 56px;
     }
 }
+
+@media (max-width: 320px) {
+    .questions-page {
+        background-image: url("../img/questions-320.jpg");
+    }
+
+    .questions__title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .questions__subtitle {
+        font-size: 12px;
+        margin-bottom: 35px;
+    }
+    
+    #info-form fieldset {
+        gap: 15px;
+        margin-bottom:  45px;
+    }
+    
+    #info-form input {
+        padding: 6px 18px;
+        font-size: 14px;
+        border: 1px solid #fff;
+        width: 289px;
+        height: 28px;
+    }
+    
+    #info-form input::placeholder {
+        font-size: 14px;
+    }
+    
+    .questions__text {
+        font-size: 11px;
+    }
+    
+    .questions__text a {
+        position: relative;
+        color: #4a76a8;
+    }
+    
+    .questions__text a::after {
+        content: "";
+        width: 49px;
+    }
+
+    .section:last-child {
+        padding-bottom: 30px;
+    }
+}

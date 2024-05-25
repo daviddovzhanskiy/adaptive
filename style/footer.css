@@ -111,3 +111,37 @@
       width: 106px;
     }
 }
+
+@media (max-width: 320px) {
+    .footer {
+        padding: 25px 0;
+    }
+
+    .footer__left-circle {
+        width: 30px;
+        height: 30px;
+        font-size: 11px;
+    }
+
+    .footer__left-circle-text {
+        padding-bottom: 3px;
+    }
+
+    .footer__left-text {
+        width: 87.3px;
+        height: 22px;
+        font-size: 8px;
+    }
+
+    .footer__center  {
+        display: none;
+    }
+
+    .footer__right-phone {
+      display: none;
+    }
+    
+    .footer__right-recall {
+      display: none;
+    }
+}

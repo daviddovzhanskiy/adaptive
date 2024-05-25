@@ -105,6 +105,10 @@
   margin-bottom: 90px;
 }
 
+.welcome__subtitle-320 {
+  display: none;
+}
+
 .welcome__button {
   width: 200px;
   height: 48px;
@@ -165,5 +169,87 @@
     height: 70px;
     font-size: 18px;
     margin-bottom: 60.43px;
+  }
+}
+
+@media (max-width: 320px) {
+  .section-diff {
+    padding: 15px 0 65px;
+  }
+
+  .welcome-page {
+    background-image: url("../img/office-320.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(47, 50, 75, 0.85);
+    background-blend-mode: overlay;
+  }
+
+  .header__box {
+    padding-bottom: 65px;
+  }
+
+  .header__logo-circle {
+    width: 30px;
+    height: 30px;
+    font-size: 11px;
+  }
+
+  .header__contacts {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    background-color: #555a7b;
+    position: relative;
+  }
+  .header__contacts::after {
+    content: "";
+    width: 12.2px;
+    height: 12.18px;
+    background-image: url("../img/phone.svg");
+    background-repeat: no-repeat;
+    color: #fff;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+  }
+
+  .header__phone {
+    display: none;
+  }
+
+  .header__recall {
+    display: none;
+  }
+
+  .welcome__title {
+    width: 290px;
+    height: 74px;
+    font-size: 20px;
+    margin-bottom: 23px;
+  }
+
+  .welcome__subtitle {
+    display: none;
+  }
+
+  .welcome__subtitle-320 {
+    display: block;
+    width: 290px;
+    height: 77px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 141%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 54px;
+  }
+
+  .welcome__button {
+    width: 160px;
+    height: 38px;
+    font-size: 16px;
   }
 }
