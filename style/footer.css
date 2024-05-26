@@ -91,6 +91,10 @@
   left: 0;
 }
 
+.hide-footer {
+  display: none;
+}
+
 @media (max-width: 1024px) {
     .footer__left-circle {
         width: 60px;
@@ -143,5 +147,46 @@
     
     .footer__right-recall {
       display: none;
+    }
+
+    .footer__right {
+      width: 24px;
+      height: 24px;
+      border-radius: 100%;
+      background-color: #555a7b;
+      position: relative;
+    }
+
+    .footer__right::after {
+      content: "";
+      width: 12.2px;
+      height: 12.18px;
+      background-image: url("../img/phone.svg");
+      background-repeat: no-repeat;
+      color: #fff;
+      position: absolute;
+      top: 6px;
+      left: 6px;
+    }
+
+    .hide-footer {
+      display: block;
+      background: #2a2c3f;
+    }
+
+    .hide-footer__box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hide-footer__center-text {
+      padding: 15px;
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 141%;
+      color: #fff;
+      opacity: 0.5;
     }
 }
