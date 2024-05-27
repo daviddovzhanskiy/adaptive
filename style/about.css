@@ -10,11 +10,12 @@
   color: #383a4c;
 
   margin-bottom: 25px;
+  padding-right: 2px;
 }
 
 .about__subtitle {
   position: relative;
-  width: 57px;
+  width: 59px;
   height: 26px;
   font-family: var(--font-family);
   font-weight: 500;
@@ -22,6 +23,7 @@
   text-align: center;
   color: #383a4c;
 
+  padding-right: 2px;
   margin: 0 auto 35px;
 }
 
@@ -29,7 +31,7 @@
 .about__subtitle::after {
   content: "";
   position: absolute;
-  width: 43px;
+  width: 42px;
   height: 2px;
   background: #383a4c;
   top: 12px;
@@ -40,7 +42,7 @@
 }
   
 .about__subtitle::after {
-  right: -66px;
+  right: -62px;
 }
 
 .about__text {
@@ -50,11 +52,12 @@
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
-  line-height: 141%;
+  line-height: 140%;
   text-align: center;
   color: #383a4c;
 
   margin: 0 auto 50px;
+  padding-right: 2px;
 }
 
 .about__advantages {
@@ -86,7 +89,9 @@
   border-radius: 100%;
   background-color: #23c7ec;
     
-  margin-bottom: 16px;
+  margin-bottom: 14px;
+  padding-top: 10px;
+  padding-right: 1px;
 }
 
 .about__advantages-item-title {

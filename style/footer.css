@@ -1,6 +1,6 @@
 .footer {
     background: #2f324b;
-    padding: 45px 0;
+    padding: 44px 0;
 }
 
 .footer__box {
@@ -16,6 +16,7 @@
 
 .footer__left-logo {
     margin-right: 19px;
+    padding-top: 1px;
 }
 
 .footer__left-circle {
@@ -33,7 +34,8 @@
 }
 
 .footer__left-circle-text {
-    padding-bottom: 6px;
+    padding-bottom: 5px;
+    padding-left: 1px;
 }
 
 
@@ -54,6 +56,9 @@
     line-height: 141%;
     color: #fff;
     opacity: 0.5;
+
+    padding-top: 4px;
+    padding-right: 4px;
 }
 
 .footer__right {
@@ -64,11 +69,12 @@
 .footer__right-phone {
   font-family: var(--font-family);
   font-weight: 400;
-  font-size: 23px;
+  font-size: 24px;
   text-align: center;
   color: #fff;
 
-  margin-bottom: 2.85px;
+  padding-bottom: 4px;
+  padding-right: 1px;
 }
 
 .footer__right-recall {
@@ -78,15 +84,16 @@
   font-size: 16px;
   text-align: center;
   color: #fff;
+
 }
 
 .footer__right-recall::after {
   position: absolute;
   content: "";
-  width: 131px;
+  width: 134px;
   height: 1px;
   background: rgba(255, 255, 255, 0.5);
-  top: 100%;
+  top: 106%;
   left: 0;
 }
 
